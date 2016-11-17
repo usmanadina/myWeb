@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dessert Addict</title>
+</head>
+
+
+<body>
+<h2> <marquee> Welcome Dessert Addict </marquee> </h2>
+<header>
+      <div class="w3-content w3-section" style="width:100%;height:500px">
+        <img class="mySlides w3-animate-fading" src="dessert8.jpg" style="width:100%;height:500px">
+        <img class="mySlides w3-animate-fading" src="dessert7.jpg" style="width:100%;height:500px">
+        <img class="mySlides w3-animate-fading" src="dessert5.jpg" style="width:100%;height:500px">
+        <img class="mySlides w3-animate-fading" src="dessert6.jpg" style="width:100%;height:500px">
+      </div>
+
+      <h2> <marquee> Welcome Dessert Addict </marquee> </h2>
+    
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Menu</a>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#"></a>
+              <a href="#custard">CUSTARDS and PUDDINGS</a>
+              <a href="#frozen">FROZEN Dessert</a>
+              <a href="#miscellanuous">MISCELLANUOUS Desserts</a>
+              <a href="#cookies">COOKIES</a>
+              <a href="#chocolate">Chocolates and Candies</a>
+              <a href="#cakes"> Cakes</a>
+            </div>
+		</li>
+        <li><a href="#book">Book</a></li> 
+        <li><a href="#events">Events</a></li> 
+        <li><a href="#gift">Gift</a></li> 
+        <li><a href="#offers">Offers</a></li> 
+        
+    </ul>
+  </header>
+
+</body>
+</html>
