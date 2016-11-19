@@ -16,21 +16,21 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
 	-->
 	<style ="css/text">
-	  .carousel-inner .item > img,
-	  .carousel-inner .item > a > img {
-		  width: 70%;
-		  margin: auto;
-	  }
+	.carousel-inner .item > img,
+	.carousel-inner .item > a > img {
+	  width: 70%;
+	  margin: auto;
+	}
 	  <!--h2{
 		font-family: 'Gochi Hand, cursive;
 	  }
 	  h2{
 	  @import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
 	  }-->
-	  body{
+	body{
 		background-color:#F5F5DC;
-	  }
-	  h3 {
+	}
+	h3 {
 		text-align: center;
 		font-family: calibri;
 		margin-top: 70px;
@@ -39,7 +39,20 @@
 	fieldset {
 		margin-left: 250px;
 		margin-right: 250px;
-		font-family: 
+		font-family:
+	}
+	.home{
+		background-color: #B22222;
+	
+	}
+	.offers{
+		<!--float: right;
+		clear: left-->
+		background-color: #00008B;
+	}
+	.book{
+		background-color: #FF7F50 ;
+	}
 	<!--.btn btn-primary btn-large{
 		color: maroon;
 	}
@@ -62,7 +75,7 @@
 			<ul class="nav navbar-nav">
 			  <li class="active"><a href="#home">Home</a></li>
 			  <li> <a href="#">Menu</a> </li>
-			  <li> <a href="#">Book</a> </li>
+			  <li> <a href="#book">Book</a> </li>
 			  <li> <a href="#offers">Offers</a> </li>
 			</ul>
 			<form class="navbar-form navbar-right">
@@ -123,8 +136,8 @@
               <a href="#cakes"> Cakes</a>
             </div> -->
 	</header>
-	
-  <!--HOME-->
+ <!--HOME-->
+	<div class="home">
 		  <div class="container-fluid" id="home">
 		  <div class="row">
 			<div class="col-md-12">
@@ -245,11 +258,12 @@
 			</div>
 		  </div>
 		</div>
+	</div>
 <hr width="2px" color="maroon">
 <!--book-->
 <hr>
+	<div class="book" id="book" width="700px">
 	<h3 align="center"> <b>How to Book Your Dessert</b> </h3>
-		<left>
 	<form border="3px" color="solid black">
 		<fieldset>
 			<fieldset>
@@ -282,63 +296,63 @@
 			
 			</fieldset>
 		</fieldset>
-		</left>
+	</div>
 <!--offers-->
-<hr>
-  <div class="container-fluid" id="offers">
-	<div class="row">
-		<div class="col-md-6">
-			<div class="jumbotron">
+	<div class="offers" id="offers">
+	  <div class="container-fluid" id="offers">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="jumbotron">
+					<h2 align="center">
+						30% OFF
+					</h2>
+					<p align="center">
+						This offer is valid Sunday from 5pm and Monday to Friday from 12pm. Expires Friday 16th Desember 2016.
+					</p>
+					<p align="center">
+						<a class="btn btn-primary btn-large" href="#">Get Offer</a>
+					</p>
+				</div><img class="img-rounded" alt="Bootstrap Image Preview" src="christmascake.jpg" width="300px" height="200px" align="center">
 				<h2 align="center">
-					30% OFF
+					2 FOR 1 Christmas Menu
 				</h2>
 				<p align="center">
-					This offer is valid Sunday from 5pm and Monday to Friday from 12pm. Expires Friday 16th Desember 2016.
+					Enjoy 2 for 1 on either the Christmas Menu . Available only on ypur Christmas moment. Excludes our Rp100.000,00 breakfast bundle offer.
 				</p>
 				<p align="center">
-					<a class="btn btn-primary btn-large" href="#">Get Offer</a>
+					<a class="btn" href="#">View details »</a>
 				</p>
-			</div><img class="img-rounded" alt="Bootstrap Image Preview" src="christmascake.jpg" width="300px" height="200px" align="center">
-			<h2 align="center">
-				2 FOR 1 Christmas Menu
-			</h2>
-			<p align="center">
-				Enjoy 2 for 1 on either the Christmas Menu . Available only on ypur Christmas moment. Excludes our Rp100.000,00 breakfast bundle offer.
-			</p>
-			<p align="center">
-				<a class="btn" href="#">View details »</a>
-			</p>
-		</div>
-		<div class="col-md-6">
-			<img class="img-circle" alt="Bootstrap Image Preview" src="clubcard.jpg" height="200px" width="200px" align="center">
-			<h2 align="center">
-				TESCO Clubcard
-			</h2>
-			<p align="center">
-				Don't forget we accept Tesco Clubcard vouchers. Get more discount with TESCO Clubcard
-			</p>
-			<p align="center">
-				<a class="btn" href="#">View details »</a>
-			</p>
-			<div class="jumbotron" width="1000px" height="1000px">
-			<br> 
+			</div>
+			<div class="col-md-6">
+				<img class="img-circle" alt="Bootstrap Image Preview" src="clubcard.jpg" height="200px" width="200px" align="center">
 				<h2 align="center">
-					New Year Eve
+					TESCO Clubcard
 				</h2>
 				<p align="center">
-					For the New Year Eve, we open till 4 a.m. Get 25% off . 
+					Don't forget we accept Tesco Clubcard vouchers. Get more discount with TESCO Clubcard
 				</p>
 				<p align="center">
-					<a class="btn btn-primary btn-large" href="#" >Get Offer</a>
-				</p> <br>
+					<a class="btn" href="#">View details »</a>
+				</p>
+				<div class="jumbotron" width="1000px" height="1000px">
+				<br> 
+					<h2 align="center">
+						New Year Eve
+					</h2>
+					<p align="center">
+						For the New Year Eve, we open till 4 a.m. Get 25% off . 
+					</p>
+					<p align="center">
+						<a class="btn btn-primary btn-large" href="#" >Get Offer</a>
+					</p> <br>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</div>
 </body>
 </html>
