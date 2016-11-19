@@ -6,26 +6,73 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Ravi+Prakash" rel="stylesheet">
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
 	-->
-	<style>
+	<style ="css/text">
 	  .carousel-inner .item > img,
 	  .carousel-inner .item > a > img {
 		  width: 70%;
 		  margin: auto;
 	  }
+	  <!--h2{
+		font-family: 'Gochi Hand, cursive;
+	  }
+	  h2{
+	  @import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
+	  }-->
+	  body{
+		background-color:#F5F5DC;
+	  }
+	  h3 {
+		text-align: center;
+		font-family: calibri;
+		margin-top: 70px;
+		font-size: 25px;
+	}
+	fieldset {
+		margin-left: 250px;
+		margin-right: 250px;
+		font-family: 
+	<!--.btn btn-primary btn-large{
+		color: maroon;
+	}
+	.btn btn-primary btn-large:hover {
+		color: blue;
+	}-->
+	
 	</style>
 
 </head>
 
 <body>
-	<header>
 
+<header >
+<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">DESSERTAddict</a>
+			</div>
+			<ul class="nav navbar-nav">
+			  <li class="active"><a href="#home">Home</a></li>
+			  <li> <a href="#">Menu</a> </li>
+			  <li> <a href="#">Book</a> </li>
+			  <li> <a href="#offers">Offers</a> </li>
+			</ul>
+			<form class="navbar-form navbar-right">
+			  <div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			  </div>
+			  <button type="submit" class="btn btn-default" color="maroon">Taste It!</button>
+			</form>
+		  </div>
+		</nav>	
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -64,8 +111,8 @@
   </div>
 </div>
 
-      <h2> <marquee> Welcome Dessert Addict </marquee> </h2>
-	<hr width="2px" color="maroon">
+      <h2> <marquee> Welcome to Dessert Heaven </marquee> </h2>
+	
            <!-- <div class="dropdown-content" id="myDropdown">
               <a href="#"></a>
               <a href="#custard">CUSTARDS and PUDDINGS</a>
@@ -75,29 +122,169 @@
               <a href="#chocolate">Chocolates and Candies</a>
               <a href="#cakes"> Cakes</a>
             </div> -->
-		<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <a class="navbar-brand" href="#">WebSiteName</a>
-			</div>
-			<ul class="nav navbar-nav">
-			  <li class="active"><a href="#">Home</a></li>
-			  <li> <a href="#">Menu</a> </li>
-			  <li> <a href="#">Book</a> </li>
-			  <li> <a href="#offers">Offers</a> </li>
-			</ul>
-			<form class="navbar-form navbar-right">
-			  <div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-			  </div>
-			  <button type="submit" class="btn btn-default" color="maroon">Taste It!</button>
-			</form>
-		  </div>
-		</nav>	
 	</header>
-  /* HOME*/
-  
-  <!--offers-->
+	
+  <!--HOME-->
+		  <div class="container-fluid" id="home">
+		  <div class="row">
+			<div class="col-md-12">
+			  <div class="row">
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<img alt="Bootstrap Thumbnail First" src="1.jpg" width="250px" height="250px">
+					<div class="caption">
+					  <h3>
+								CUSTARDS and PUDDINGS
+					  </h3>
+					  <p>
+						Creamy custards and puddings typically include a thickened dairy base. 
+						The thickener used determines whether it is a custard or a pudding. 
+						Generally, custards are cooked and thickened with eggs. 
+						Crème brulee and flan are both baked custards. Puddings are thickened with starches.
+					  </p>
+					  <p>
+						<a class="btn btn-primary" href="#">Taste it!</a> <a class="btn" href="#">more...</a>
+					  </p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<img alt="Bootstrap Thumbnail Second" src="4.jpg" width="250px" height="250px">
+					<div class="caption">
+					  <h3>
+						FROZEN Dessert
+					  </h3>
+					  <p>
+						Nothing beats the heat on a summer’s day than a cooling ice cream. 
+						Ice cream consists of cream slowly stirred in a churn to freeze it to a creamy consistency. 
+						Gelato uses a milk base instead of cream and has less air mixed into it than ice cream. 
+						Frozen custard uses a cooked base of egg yolks. For a dairy-free dessert, try a sorbet, which is made from churned fruit purees.
+					  </p>
+					  <p>
+						<a class="btn btn-primary" href="#">Taste it!</a> <a class="btn" href="#">more...</a>
+					  </p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<img alt="Bootstrap Thumbnail Third" src="5.jpg" width="250px" height="250px">
+					<div class="caption">
+					  <h3>
+						MISCELLANUOUS Desserts
+					  </h3>
+					  <p>
+						Flaming bananas foster and cherries jubilee are fruity desserts with a syrup and alcohol sauce.
+						This sauce is lit at the table before eating as a flashy presentation to end the meal.
+					  </p>
+					  <p>
+						<a class="btn btn-primary" href="#">Taste it!</a> <a class="btn" href="#">more...</a>
+					  </p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="container-fluid">
+		  <div class="row">
+			<div class="col-md-12">
+			  <div class="row">
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<img alt="Bootstrap Thumbnail Fourth" src="8.jpg" width="250px" height="250px">
+					<div class="caption">
+					  <h3>
+						COOKIES
+					  </h3>
+					  <p>
+						Cookies originated as small cakes. Cookies vary in their size, shape and texture, but many cookies share variations of basic ingredients of sweetener, eggs, butter or shortening and flour. Varieties include chocolate chip cookies, soft sugar cookies, crunchy gingersnaps, tender shortbread, chewy oatmeal cookies, crispy meringues and cakelike bar cookies.
+					  </p>
+					  <p>
+						<a class="btn btn-primary" href="#">Taste it!</a> <a class="btn" href="#">more...</a>
+					  </p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<img alt="Bootstrap Thumbnail Fifth" src="7.jpg" width="250px" height="250px">
+					<div class="caption">
+					  <h3>
+						CAKES
+					  </h3>
+					  <p>
+						Cakes are not just for birthday parties. These desserts resemble tender, sweet breads. Examples of cakes include angel food cake made with egg whites, sponge cake, flourless cakes like the sacher torte, German chocolate cake, pavolva cake made with a meringue base, pound cake and fruitcake. Petits fours, cupcakes and snack cakes are single-serve sizes of larger cakes.
+					  </p>
+					  <p>
+						<a class="btn btn-primary" href="#">Taste it!</a> <a class="btn" href="#">more...</a>
+					  </p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<img alt="Bootstrap Thumbnail Sixth" src="9.jpg" width="250px" height="300px">
+					<div class="caption">
+					  <h3>
+						CHOCOLATE and Candies
+					  </h3>
+					  <p>
+						Rock candy has large sugar crystals and a crunchy texture, but fudge contains small sugar crystals, giving it a smooth taste. Candy and chocolate desserts include fudge, caramel, lollipops, taffy, marshmallows, fondant, pralines and cotton candy.
+					  </p>
+					  <p>
+						<a class="btn btn-primary" href="#">Taste it!</a> <a class="btn" href="#">more...</a>
+					  </p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+<hr width="2px" color="maroon">
+<!--book-->
+<hr>
+	<h3 align="center"> <b>How to Book Your Dessert</b> </h3>
+		<left>
+	<form border="3px" color="solid black">
+		<fieldset>
+			<fieldset>
+				<legend> MAIN IDENTITY</legend>
+				Name 	: <br>
+				<input type="text" name="nama">  <br>
+				Addres	: <br>
+				<input type="text" name ="alamat">  <br>
+				Telephone	: <br>
+				<input type="number" name="nomor">  <br>
+			</fieldset>
+			<fieldset>
+				<legend> DETAILS </legend>
+				Which place would you prefer to book ? <br>
+				<input type="radio" name="jk"> Gold (Super-VIP) <br>
+				<input type="radio" name="jk"> Silver (VIP) <br>
+				<input type="radio" name="jk"> Bronze ( Non-VIP) <br>
+				For how many people do you want to book the table ? <br>
+				<input type="number" name="umur" min="1" max="20" > <br>
+				What date will you use the table ? <br>
+				<input type="date" name="bod" min="2016-11-11" max="2020-01-01"> <br>
+				What kind of dessert whould you like us to preapare ? <i>[You may choose more than one]</i> <br>
+				<input type="radio" name="dessert"> CUSTARDS and PUDDINGS <br>
+				<input type="radio" name="dessert1"> FROZEN Dessert <br>
+				<input type="radio" name="dessert2"> MISCELLANUOUS Desserts <br>
+				<input type="radio" name="dessert3"> COOKIES <br>
+				<input type="radio" name="dessert4"> CHOCOLATE and Candies <br>
+				<input type="radio" name="dessert5"> CAKES <br>
+			<input type="submit" value="BOOK!">
+			
+			</fieldset>
+		</fieldset>
+		</left>
+<!--offers-->
+<hr>
   <div class="container-fluid" id="offers">
 	<div class="row">
 		<div class="col-md-6">
