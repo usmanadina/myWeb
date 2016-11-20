@@ -9,7 +9,7 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Ravi+Prakash" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Ranga|Ravi+Prakash|Gloria+Hallelujah" rel="stylesheet">
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -21,18 +21,22 @@
 	  width: 70%;
 	  margin: auto;
 	}
-	  <!--h2{
-		font-family: 'Gochi Hand, cursive;
-	  }
-	  h2{
-	  @import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
-	  }-->
+	h1{
+		font-family:'Ravi Prakash', cursive;
+	}
+	h2{
+		font-family: 'Ravi Prakash', cursive;
+	}
+	p{
+		font-family: 'Ranga', cursive;
+		font-size: 24px;
+	}
 	body{
-		background-color:#F5F5DC;
+		background-color:  #CFF09E;
 	}
 	h3 {
 		text-align: center;
-		font-family: calibri;
+		font-family: 'Architects Daughter', cursive;
 		margin-top: 70px;
 		font-size: 25px;
 	}
@@ -41,17 +45,34 @@
 		margin-right: 250px;
 		font-family:
 	}
+	button {
+		font-family: 'Ranga', cursive;
+		background-color: orange;
+	}
+	button:hover {
+		background-color: lightblue;
+		color: red;
+	}
 	.home{
-		background-color: #B22222;
+		background-color: #A8DBA8;
 	
+	}
+	.menu{
+		background-color: #79bd9a;
+	}
+	legend{
+		font-family: 'Architects Daughter', cursive;
+	}
+	li{
+		font-family: 'Gloria Hallelujah', cursive;
 	}
 	.offers{
 		<!--float: right;
 		clear: left-->
-		background-color: #00008B;
+		background-color: #0B486B;
 	}
 	.book{
-		background-color: #FF7F50 ;
+		background-color: #79BD9A;
 	}
 	<!--.btn btn-primary btn-large{
 		color: maroon;
@@ -60,7 +81,7 @@
 		color: blue;
 	}-->
 	.footer-distributed{
-      background-color: #292c2f;
+      background-color: #3B8686;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
       box-sizing: border-box;
       width: 100%;
@@ -82,7 +103,7 @@
 
     .footer-distributed h3{
       color:  #ffffff;
-      font: normal 36px 'Cookie', cursive;
+      font: normal 36px 'Architects Daughter', cursive;
       margin: 0 0 10px;
     }
 
@@ -219,7 +240,7 @@
 
       .footer-distributed form input,
       .footer-distributed form textarea{
-        width: 250px;
+        width: 450px;
       }
 
       .footer-distributed form button{
@@ -255,16 +276,13 @@
 
       .footer-distributed form button{
         float: none;
+		font-family: 'Ranga', cursive;
       }
     }
-  body {
-    background-color: silver;
-    
-  }    
-
- 
-
-	
+	.navbar {
+		background-color: #3B8686;
+		color: white;
+	}
 	</style>
 
 </head>
@@ -272,22 +290,22 @@
 <body>
 
 <header >
-<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
+<nav class="navbar">
+		  <div class="container-fluid" bgcolor="indigo">
 			<div class="navbar-header">
-			  <a class="navbar-brand" href="#">DESSERTAddict</a>
+			  <a class="navbar-brand" href="#" >DESSERTAddict</a>
 			</div>
 			<ul class="nav navbar-nav">
 			  <li class="active"><a href="#home">Home</a></li>
-			  <li> <a href="#">Menu</a> </li>
+			  <li> <a href="#menu">Menu</a> </li>
 			  <li> <a href="#book">Book</a> </li>
 			  <li> <a href="#offers">Offers</a> </li>
 			</ul>
 			<form class="navbar-form navbar-right">
 			  <div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
+				<input type="text" class="form-control" placeholder="your dessert?">
 			  </div>
-			  <button type="submit" class="btn btn-default" color="maroon">Taste It!</button>
+			  <button type="submit" class="button">Taste It!</button>
 			</form>
 		  </div>
 		</nav>	
@@ -329,7 +347,7 @@
   </div>
 </div>
 
-      <h2> <marquee> Welcome to Dessert Heaven </marquee> </h2>
+      <h1> <marquee> Welcome to Dessert Heaven </marquee> </h1>
 	
            <!-- <div class="dropdown-content" id="myDropdown">
               <a href="#"></a>
@@ -464,11 +482,12 @@
 		  </div>
 		</div>
 	</div>
-<hr width="2px" color="maroon">
+<hr width="10px" color="maroon">
 
 <!--menu -->
+<div class="menu">
 <div class="container-fluid">
-  <h1 align="center">MENU</h1>
+  <h1 align="center" id="menu">MENU</h1>
   
   <div class="row">
     <div class="col-sm-3" style="background-color:red;text-align: center;height: 270px"><h2>CUSTARDS and PUDDINGS</h2>
@@ -590,6 +609,7 @@
     </div>    
   </div>
 </div>
+</div>
 
 <!--book-->
 <hr>
@@ -623,7 +643,7 @@
 				<input type="radio" name="dessert3"> COOKIES <br>
 				<input type="radio" name="dessert4"> CHOCOLATE and Candies <br>
 				<input type="radio" name="dessert5"> CAKES <br>
-			<input type="submit" value="BOOK!">
+			<button class="button"> BOOK! </button>
 			
 			</fieldset>
 		</fieldset>
@@ -702,8 +722,6 @@
           <p><a href="mailto:support@dessertaddict.com">support@dissertaddict.com</a></p>
         </div>
 
-        <p class="footer-company-name">Dessert Addict &copy; 2016</p>
-
         <div class="footer-icons">
 
           <a href="#"><i class="fa fa-facebook"></i></a>
@@ -721,14 +739,16 @@
         <form action="#" method="post">
 
           <input type="text" name="email" placeholder="Email" /> <br>
-          <textarea name="message" placeholder="Message"></textarea><br>
-          <button>Send</button>
+          <textarea name="message" placeholder="Message under 500 character"></textarea><br>
+          <button class="button">Send</button>
 
         </form>
 
       </div>
-
-    </footer>
+	  <div>
+		<p class="footer-company-name" align="center"> Dessert Addict &copy; 2016 </p>
+	  </div>
+	</footer>
 
 
 		<script src="js/jquery.min.js"></script>
